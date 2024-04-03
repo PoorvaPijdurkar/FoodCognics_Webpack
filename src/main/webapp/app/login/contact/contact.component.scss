@@ -213,8 +213,7 @@ p {
   letter-spacing: 6px;
   color: #fff;
   margin-bottom: 15px;
-  margin-top: 10px;
-  -webkit-animation-delay: .4s;
+  margin-top: -10px;
   animation-delay: .4s;
   text-transform: uppercase;
   font-family: 'Outfit', sans-serif;
@@ -226,7 +225,7 @@ p {
   line-height: 1.2em;
   animation-delay: .6s;
   font-weight: 400;
-  margin: 0;
+  margin-top:-120px;
 }
 .banner-header .caption {
   position: relative;

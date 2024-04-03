@@ -17,13 +17,12 @@
   order: -1;
 }
 
-.bx {
+.bi {
   cursor: pointer;
 }
 
-.main {
+.headerClass {
   width: 100%;
-  position: fixed;
   z-index: 100;
 }
 .call-button,
@@ -344,15 +343,6 @@ a {
 img {
   width: 100%;
 }
-img,
-svg {
-  vertical-align: middle;
-}
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
 @media screen and (max-width: 991px) {
   .desktop-menu {
     display: none !important;
@@ -564,7 +554,6 @@ svg {
   display: inline-flex;
   align-items: center;
 }
-
 .arrow {
   margin-bottom: -3px;
   font-size: 15px;

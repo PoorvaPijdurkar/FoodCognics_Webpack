@@ -18,7 +18,7 @@
   width: 100%;
   margin-left: 0px;
   margin-right: 0px;
-  height: 100vh;
+  height: 85vh;
 }
 .carousel-caption h1 {
   font-size: 83px;
@@ -39,10 +39,7 @@
   line-height: 1;
   letter-spacing: -0.5px;
   white-space: nowrap;
-  // margin-left: 19px;
   width: 161%;
-  // background: rgba(0, 0, 0, 0.4);
-  // margin-top: 250px;
 }
 .carousel-caption h4 {
   color: #ffffff;
@@ -56,8 +53,7 @@
   margin-left: -18px;
   width: 300%;
   text-shadow: 3px 3px 4px #3accf0;
-  // background: rgba(1, 1, 1, 0.4);
-  margin-top: 260px;
+  margin-top: 180px;
 }
 .carousel-caption p {
   font-size: 23px;
@@ -67,19 +63,13 @@
   line-height: 1.33;
   margin-left: 67px;
   white-space: nowrap;
-  // background: rgba(211, 229, 242, 0.5);
   width: 105%;
 }
 @media (max-width: 767px) {
   .carousel-caption h1 {
     font-size: 24px;
-    // margin-left: -8px;
-  }
-  .carousel-caption {
-    // margin-top: -33px;
   }
   .carousel-caption h3 {
-    // margin-left: -81px;
     font-size: 15px;
     white-space: nowrap;
     width: 281px;
@@ -88,7 +78,6 @@
     font-size: 11px;
     margin-bottom: -8px;
     display: block;
-    // margin-left: -47px;
     line-height: 12px;
     width: 225px;
   }
@@ -590,7 +579,7 @@ h3::after {
   display: flex;
   gap: 76px;
   max-width: 1068px;
-  margin: 37px auto;
+  margin: 46px 54px;
 }
 .portfolio-text {
   margin-top: 7px;

@@ -26,13 +26,15 @@ import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
-
+import { FoodComponent } from './login/Sector/food/food.component';
+import { ServiceModule } from './login/services/ServicesModule';
 
 @NgModule({
   imports: [
     BrowserModule,
     SharedModule,
     ReactiveFormsModule,
+    ServiceModule,
     CarouselModule.forRoot(),
     HomeModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
@@ -49,7 +51,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     { provide: NgbDateAdapter, useClass: NgbDateDayjsAdapter },
     httpInterceptorProviders,
   ],
-  declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
+  declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent, FoodComponent],
   bootstrap: [MainComponent],
 })
 export class AppModule {

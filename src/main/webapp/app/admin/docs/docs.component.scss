@@ -1,67 +1,79 @@
-#Content {
-  width: 92%;
-  margin: 34px;
-  padding: 67px;
-  display: block;
-  clear: both;
-  position: relative;
-  margin-top: 33px;
-  background-color: white;
+.row .tool_box {
+  display: flex;
+  justify-content: center;
+  margin-left: -15px;
 }
-
-#page_content {
-  background-color: #ffffff;
-  margin: 0 auto; 
-  width: 91.5%;
-  padding-bottom: 5px;
+.tool_box1 {
+  margin-right: 104px;
+  display: flex;
+  justify-content: center;
+  margin-left: 117px;
 }
-
-.slide-wrapper img {
-  max-width: 100%;
-  margin-bottom: 20px;
-  height: 302px;
-  margin-left: 218px;
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
 }
-
-h1 {
-  font-family: "Dancing Script", cursive;
-  font-size: 36px;
-  color: #be4b50;
-  font-weight: bold;
-  padding: 0px;
-  margin: 0px;
-  margin-bottom: 10px;
-  height: 45px;
-  border-bottom: 3px solid #eaeaea;
+.tool-name {
+  padding: 15px 11px;
+  background: #fff;
+  border-radius: 18px;
+  margin-bottom: 29px;
+  display: flex;
+  height: 140px;
+  align-items: center;
+  font-size: 14px;
+  background-color: #f4f4df;
+  color: #685454;;
+  font-family: 'Philosopher', sans-serif;
+  line-height: 1.25rem;
 }
-
-.pageText {
-  font-size: 15px;
-  color: #666666;
-  line-height: 24px;
-  font-weight: normal;
-  text-align: justify;
-font-family: 'Almarai', sans-serif;
-font-family: 'Varela', sans-serif;
-}
-
-.pageTextBlue {
-  font-size: 18px;
-  color: #1b8ec8;
-  text-align: left;
-  line-height: 24px;
-  font-weight: normal;
-}
-strong {
-  font-weight: bold;
+.tool-name img {
+  height: 60px;
+  width: 60px;
 }
 @media (max-width: 767px) {
-    #Content{
-        margin-left: 10px;
-        margin-top: 92px;
-        padding: 4px;
-    }
-    .slide-wrapper img {
-      margin-left: 1px;
-    }
+  .tool_box .col-auto {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding-right: 10px;
+  }
+
+  .tool-name {
+    width: 100%;
+    margin-right: 0;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  .tool-name img {
+    height: 41px;
+    width: 31px;
+  }
+  .row.tool_box {
+    margin-left: 0;
+  }
+}
+#program{
+  width: 100%; 
+  max-width: 1118px;
+  margin-top: 200px;
+}
+#program {
+  background-image: url('../../../content/images/assets/sector/foodImg.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  image-rendering: pixelated;
+  margin-top: 34px;
+}
+strong{
+  color: cornsilk;
+  font-weight: bolder;
+  font-size: 21px;
+}
+p{
+  font-weight: 600;
+  font-size: 16px;
+  color: cornsilk;
 }

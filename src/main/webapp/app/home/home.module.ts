@@ -6,9 +6,18 @@ import { HOME_ROUTE } from './home.route';
 import { HomeComponent } from './home.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
-  imports: [SharedModule, CommonModule,FormsModule, RouterModule.forChild([HOME_ROUTE]),CarouselModule.forRoot(),ReactiveFormsModule],
+  imports: [
+    SharedModule,
+    CommonModule,
+    FormsModule,
+    RouterModule.forChild([HOME_ROUTE]),
+    CarouselModule.forRoot(),
+    ReactiveFormsModule,
+    YouTubePlayerModule,
+  ],
   declarations: [HomeComponent],
   schemas: [NO_ERRORS_SCHEMA],
 })

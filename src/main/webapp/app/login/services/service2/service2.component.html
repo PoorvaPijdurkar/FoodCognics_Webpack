@@ -1,0 +1,97 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="lftcolumn animate__animated animate__zoomInUp">
+        <ul>
+          <li><a (click)="navigateTo('../turnkeyProjectSetup/turnkeyProjectSetup')">Turnkey Project Setup</a></li>
+          <li><a (click)="navigateTo('../newProductDevelopment')">New Product Development</a></li>
+          <li><a (click)="navigateTo('../licensingRegulatoryServices/mandatory/FSSAI')">Licensing & Regulatory Services</a></li>
+          <li><a (click)="navigateTo('../financialServices/DPR')">Financial Services</a></li>
+          <li><a (click)="navigateTo('../technicalServices')">It Enabled Food Industry</a></li>
+          <li><a (click)="navigateTo('../governmentSchemas/MoFPI')">Government Schemes & Subsidy</a></li>
+          <li><a (click)="navigateTo('../auditingTrainingServices/Food-Safety-Audits')">Auditing & Training Services</a></li>
+          <li><a (click)="navigateTo('../valueAddedService/Monthly-Advisory-Services')">Value Added Services</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      *ngIf="selectedItem === 'DPR' || selectedItem === 'Feasibility-Study-Report' || selectedItem === 'Techno-Economic-Viability-Study-Report'"
+      class="col-sm-9">
+
+      <div class="TS-hero animate__animated animate__zoomIn">
+        <img class="about_web" src="../../../assets/Services-Images/Feasibility Study Report.jpg"
+          alt="Web Background" />
+        <div class="overlay-container"></div>
+      </div>
+
+      <div class="container">
+        <div class="inner-block">
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <div class="TS-title">
+                <div data-aos="flip-left" class="aos-init aos-animate">
+                  <h1 class="TS-title animate__animated animate__fadeInLeftBig">
+                    <strong>{{ selectedItem }}</strong>
+                  </h1>
+                </div>
+              </div>
+                 <div class="one animate__animated animate__slideInLeft">
+                <ng-container *ngIf="selectedItem === 'DPR'">
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Ideation and nuturing the Product</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Survellence and Raw material data hunting</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Assistance in selecting the product</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Capacity finalization & Budgetory estmation of project</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Value Engineering</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Design Engineering</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Machinery specification assistance</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Production process Roadmap</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Machineries ,Utilities Financials</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Market Entry Strategy</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Market Linkage</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Human Resource Calculation</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Business Financial</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Feasibility-Study-Report'">
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Support in Estimating total project cost</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Guidance in Finalizing finance</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Analysing Financial Viability</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Backing in competitors study.</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Exploring New Opportunities for Products</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Techno-Economic-Viability-Study-Report'">
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Identification of the risk associated with product.</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Forming risk mitigation strategies.</p>
+               <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Evaluating the financial risks.</p>
+                </ng-container>
+              </div>
+            </div>
+            <!-- <div class="col-md-4"> -->
+              <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

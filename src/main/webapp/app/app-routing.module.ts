@@ -33,13 +33,18 @@ import { UserRouteAccessService } from 'app/core/auth/user-route-access.service'
           loadChildren: () => import(`./entities/entity-routing.module`).then(m => m.EntityRoutingModule),
         },
         {
-          path: 'goals',
+          path: 'Food-Startup-Program',
           loadChildren: () => import(`./admin/docs/docs.module`).then(m => m.DocsModule),
         },
         {
           path: '',
           loadChildren: () => import(`./admin/user-management/user-management.module`).then(m => m.UserManagementModule),
         },
+        {
+          path: 'services',
+          loadChildren: () => import(`./login/services/ServicesModule`).then(m => m.ServiceModule),
+        },
+
         { path: 'food-categories/:category', component: FoodComponent },
         navbarRoute,
         ...errorRoute,

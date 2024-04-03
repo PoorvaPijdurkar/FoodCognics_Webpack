@@ -1,0 +1,235 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3" *ngIf="selectedItem !== 'turnkeyProjectSetup'">
+      <div class="lftcolumn animate__animated animate__zoomInUp">
+        <ul>
+          <li><a (click)="navigateTo('../turnkeyProjectSetup/turnkeyProjectSetup')">Turnkey Project Setup</a></li>
+          <li><a (click)="navigateTo('../newProductDevelopment')">New Product Development</a></li>
+          <li><a (click)="navigateTo('../licensingRegulatoryServices/mandatory/FSSAI')">Licensing & Regulatory
+              Services</a></li>
+          <li><a (click)="navigateTo('../financialServices/DPR')">Financial Services</a></li>
+          <li><a (click)="navigateTo('../technicalServices')">IT Enabled Food Industry</a></li>
+          <li><a (click)="navigateTo('../governmentSchemas/MoFPI')">Government Schemes & Subsidy</a></li>
+          <li><a (click)="navigateTo('../auditingTrainingServices/Food-Safety-Audits')">Auditing & Training Services</a>
+          </li>
+          <li><a (click)="navigateTo('../valueAddedService/Monthly-Advisory-Services')">Value Added Services</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      *ngIf="selectedItem === 'basis-of-design' || selectedItem === 'Building-Design-Phase' || selectedItem === 'Land-Selection' ||
+     selectedItem === 'Machinery-Selection' || selectedItem === 'Architectural-Service' || selectedItem === 'Vendor-Selection-&-Management' ||
+      selectedItem === 'Site-supervision' || selectedItem === 'Preparation-Of-progress-report' || selectedItem === 'Value-Engineering' ||
+      selectedItem === 'Master-Project-Budget-preparation' || selectedItem === 'Preparation-of-Implementation-Schedule' || selectedItem === 'Documents-&-Handover-Procedures'"
+      class="col-sm-9">
+
+      <div class="container">
+        <div class="inner-block">
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <h1 class="TS-title animate__animated animate__fadeInLeftBig">
+                <strong>{{ selectedItem }}</strong>
+              </h1>
+              <div class="one animate__animated animate__slideInLeft">
+                <ng-container *ngIf="selectedItem === 'basis-of-design'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Finalization of the Product</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Raw Material Analysis</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Assistance in Finalizing production Capacity</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Selection of machinery according to capacity and budget</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Finalizing the Manufacturing Process</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Forward & Backward Linkage</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Calculation of Manpower Requirement</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Project Financials</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Building-Design-Phase'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Preparation of Civil Layout</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Calculation of Civil Estimate</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Verification from Chartered Civil Engineer</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Modification in Existing Civil Layout</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Land-Selection'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Preparation of Civil Layout</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Calculation of Civil Estimate</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Verification from Chartered Civil Engineer</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Modification in Existing Civil Layout</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Machinery-Selection'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Guidance for Adopting New technology</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Selection of Machinery According to Technolgy</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Identification of Suitable Supplier</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Budget Consideration</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Vendor Verification</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Financial Comparative study on Machinery.</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Supporting in Negotiation.</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Architectural-Service'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Material Selection</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Site Analysis</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Conceptual Design</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Design Development</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Construction Administration</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Interior Design</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Sustainable Environmental Design</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Renovation and Restoration</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Visualization and Rendering</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Post-Occupancy Evaluation</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Vendor-Selection-&-Management'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Identification & Verification of Vendors</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Contract Negotiation</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Communication and Relationship Building</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Site-supervision'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>weekly/Fortnightly/Monthly site visit</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Expertise site visit.(Food Technologist,Project Co-ordinator,Engineers Etc.)
+                  </p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Preparation-Of-progress-report'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Evaluating the working of project</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Value-Engineering'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Machine Engineering</p>
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Designing of utility space</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Master-Project-Budget-preparation'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Assistance in Financial Data Tracking</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Preparation-of-Implementation-Schedule'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Formulating Road-map of project working</p>
+                </ng-container>
+                <ng-container *ngIf="selectedItem === 'Documents-&-Handover-Procedures'">
+                 <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <p>Guidance in Documentation</p>
+                </ng-container>
+              </div>
+            </div>
+            <div class="col-md-4 animate__animated animate__fadeInRightBig">
+              <img [src]="selectedImage" alt="Web Background" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<!--  -->
+<div *ngIf="selectedItem === 'turnkeyProjectSetup'">
+  <div class="container mt-0">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="lftcolumn animate__animated animate__zoomIn">
+          <ul>
+            <li><a (click)="navigateTo('../turnkeyProjectSetup/turnkeyProjectSetup')">Turnkey Project Setup</a></li>
+            <li><a (click)="navigateTo('../newProductDevelopment')">New Product Development</a></li>
+            <li><a (click)="navigateTo('../licensingRegulatoryServices/mandatory/FSSAI')">Licensing & Regulatory
+                Services</a></li>
+            <li><a (click)="navigateTo('../financialServices/DPR')">Financial Services</a></li>
+            <li><a (click)="navigateTo('../technicalServices')">It Enabled Food Industry</a></li>
+            <li><a (click)="navigateTo('../governmentSchemas/MoFPI')">Government Schemes & Subsidy</a></li>
+            <li><a (click)="navigateTo('../auditingTrainingServices/Food-Safety-Audits')">Auditing & Training
+                Services</a></li>
+            <li><a (click)="navigateTo('../valueAddedService/Monthly-Advisory-Services')">Value Added Services</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-9 title">
+        <h1 class="animate__animated animate__fadeInLeftBig mt-2">Turnkey Project Setup</h1>
+        <div class="row innercontent">
+          <div class="col-sm-12 animate__animated animate__fadeInUpBig">
+            <p class="text-justify">
+              <img src="../../../../assets/sector/DPR.jpg"
+                class="pull-right img-responsive img-thumbnail sm:w-full md:w-80" alt="" />
+              A turnkey project setup refers to a project delivery approach in
+              which a contractor or a project management company is responsible
+              for the entire project from start to finish. The term "turnkey"
+              signifies that the project is ready for use by the client once it
+              is completed – the client just needs to "turn the key" to start
+              using it. In a turnkey project setup, the contractor or project
+              management company takes on the responsibility for the design,
+              construction, and commissioning of the project. This includes
+              everything from planning and design to procurement, construction,
+              testing, and final delivery. The client, on the other hand, is
+              typically only involved in the initial discussions, specifying
+              their requirements, and then accepting the finished project.<br />
+              <i class='bx bxs-hand-right' aria-hidden="true"></i><strong>Point of Responsibility:</strong><br />
+              The client deals with a
+              single entity, the turnkey contractor, which takes full
+              responsibility for the project's success.<br />
+              <i class='bx bxs-hand-right' aria-hidden="true"></i><strong>Client Involvement:</strong><br />
+              The client's involvement in
+              the day-to-day project activities is minimal. They are not
+              required to manage the construction process but rather oversee the
+              overall progress.<br />
+              <i class='bx bxs-hand-right' aria-hidden="true"></i><strong>Ready for Use:</strong><br />The project is
+              delivered in a
+              state where the client can immediately use it without further
+              modifications or adjustments.<br />
+              <i class='bx bxs-hand-right' aria-hidden="true"></i><strong>Cost and Time Certainty:</strong><br />Turnkey
+              projects often
+              come with fixed costs and timelines, providing clients with a
+              clear understanding of what to expect.<br />
+              <i class='bx bxs-hand-right' aria-hidden="true"></i><strong>Risk Transfer:</strong><br />The contractor
+              assumes most of the
+              risks associated with the project, including cost overruns and
+              delays.<br /><br />
+              Turnkey project setups are common in various industries, including
+              construction, real estate development, information technology, and
+              manufacturing. They offer clients a convenient and relatively
+              hands-off approach to project implementation, as they can rely on
+              the expertise of the turnkey contractor to deliver a complete and
+              functional solution. However, careful consideration of the
+              contractor's qualifications and a well-defined initial agreement are
+              crucial to the success of turnkey projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

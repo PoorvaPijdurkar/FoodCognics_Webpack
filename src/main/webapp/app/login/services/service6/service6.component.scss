@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 112px;
+}
+
+.content {
+  flex-basis: 50%;
+}
+
+.project-details {
+  flex-basis: 45%;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    color: #215da9;
+}
+img {
+  margin-left: 31px;
+}
+.section {
+  margin-bottom: 20px;
+}
+p {
+}
+.project-image {
+  width: 150px;
+  margin-right: 20px;
+}
+//
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.TS-hero img {
+  height: 237px;
+  width: 95%;
+  border-radius: 20px;
+  margin-top: 118px;
+}
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 14px;
+  background: #f5f5f5;
+  color: #101828;
+}
+.TS-hero-block .inner-block {
+  background: #fff;
+  padding: 40px 64px;
+  box-shadow: 0px 2px 8px rgba(196, 196, 196, 0.25);
+  border-radius: 8px;
+  margin-top: -72px;
+  position: relative;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1270px;
+}
+.inner-block .row {
+  background-color: white;
+  margin: 0px 11px 11px;
+  padding: 13px;
+  border-radius: 19px;
+  margin-left: 77px;
+  margin-top: -140px;
+  width: 88%;
+  padding: 47px;
+}
+.inner-block .TS-title {
+  text-align: start;
+  margin-bottom: 28px;
+}
+.inner-block p {
+  color: #667085;
+  text-align: start;
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  margin-left: 19px;
+  margin-top: -25px;
+}
+.inner-block img {
+  height: auto;
+  float: right;
+  width: 100%;
+  margin-top: 14px;
+  border-radius: 6px;
+}
+@media (max-width: 767px) {
+  .container {
+    margin-top: 194px;
+  }
+  .project-details {
+    margin-left: 0;
+  }
+  .container {
+    flex-direction: column;
+  }
+  h1 {
+    margin-top: 52px;
+    font-size: 24px;
+  }
+  .TS-hero img {
+    width: 100%;
+    margin-top: 109px;
+  }
+  img{
+    margin-left: 8px;
+  }
+  .inner-block .row {
+  margin-left: 11px;
+  width: 93%;
+  margin-top: -237px;
+  padding: 0px;
+}
+  }
+  .bx{
+    font-size: 16px;
+    color:#54abf7;
+  }
