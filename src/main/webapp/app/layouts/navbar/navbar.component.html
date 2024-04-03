@@ -1,0 +1,614 @@
+<div class="icons-container">
+  <a href="tel:+91 7218024999" class="call-button btn btn-primary"><i class="bi bi-telephone-fill"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=7218024999" class="whatsapp-button btn btn-success">
+    <i class='bi bi-whatsapp'></i></a>
+</div>
+<div class="main">
+  <header class="header" id="header">
+    <div class="info-bar">
+      <div class="container">
+        <div class="header-content">
+          <div class="location-div header-item">
+            <div class="stm-iconbox2 d-flex align-items-center">
+              <i class="bi bi-telephone-fill" style="margin-right: 8px; color: orange;font-size:larger;"></i>
+              <div class="stm-iconbox__info">
+                <div class="stm-iconbox__text stm-iconbox__text_nomargin">
+                  <a href="tel:+91%7218024999" style="color: white">+91 7218024999</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-content">
+            <div class="socials">
+              <ul class="d-flex align-items-center">
+                <li>
+                  <a href="https://www.facebook.com/foodcognics/" target="_blank" class="social-facebook">
+                    <i class="bx bxl-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/FoodCognics" target="_blank" class="social-twitter">
+                    <i class="bx bxl-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/foodcognics/" target="_blank" class="linkedin social-link">
+                    <i class="bx bxl-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://youtube.com/@foodcognics9031" target="_blank" class="social-youtube">
+                    <i class="bx bxl-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="navigation" id="navigation">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+      <a href="index.html" class="logo me-lg-0">
+        <img src="../../../content/images/assets/foodSlider/Foodcognics-Logo.png" alt="Logo" class="img-fluid" />
+      </a>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul class="desktop-menu d-flex justify-content-center" *ngIf="!isMenuOpen" (click)="scrollToTop()">
+          <li><a class="nav-link" (click)="scrollToTop()" routerLink="about">About</a></li>
+
+          <div mdbDropdown class="dropdown" style="margin-top: -4px;">
+            <span class="service-container">
+              <a href="#" class="service">Service</a>
+              <i class='bx bxs-down-arrow arrow'></i>
+            </span>
+            <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="line-height: 16px;">
+              <li>
+                <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                  <a class="dropdown-item" routerLink="services/turnkeyProjectSetup/turnkeyProjectSetup"><span>Turnkey
+                      Project Setup<i class='bx bxs-right-arrow'></i> </span></a>
+                  <ul mdbDropdownMenu class="dropdown-menu custom-dropdown" aria-labelledby="nestedDropdownMenuLink"
+                    style="margin-left: 13px;line-height:8px;">
+                    <li>
+                      <a class="dropdown-item" routerLink="services/turnkeyProjectSetup/Land-Selection">Land
+                        Selection</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/turnkeyProjectSetup/basis-of-design">Basis of
+                        Design</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/turnkeyProjectSetup/Architectural-Service">Architectural Service
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/turnkeyProjectSetup/Building-Design-Phase">Building
+                        Design Phase</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/turnkeyProjectSetup/Machinery-Selection">Machinery
+                        Selection</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/turnkeyProjectSetup/Preparation-of-Implementation-Schedule">Preparation of
+                        Implementation Schedule</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/turnkeyProjectSetup/Vendor-Selection-&-Management">Vendor Selection &
+                        Management</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/turnkeyProjectSetup/Site-supervision">Site
+                        supervision</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/turnkeyProjectSetup/Preparation-Of-progress-report">Progress
+                        Report</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/turnkeyProjectSetup/Value-Engineering">Value
+                        Engineering</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/turnkeyProjectSetup/Master-Project-Budget-preparation">Master Project
+                        Budget preparation</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/turnkeyProjectSetup/Documents-&-Handover-Procedures">Documents & Handover
+                        Procedures</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="dropdown-item" routerLink="services/newProductDevelopment">New Product Development</a>
+              </li>
+              <li>
+                <div mdbDropdown class="dropdown">
+                  <a class="dropdown-item" routerLink=""><span>Licensing & Regulatory Services<i
+                        class='bx bxs-right-arrow'></i></span></a>
+                  <ul mdbDropdownMenu class="dropdown-menu custom-dropdown" aria-labelledby="nestedDropdownMenuLink"
+                    style="line-height: 8px; margin-left: 13px">
+                    <li>
+                      <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                        <a class="dropdown-item"><span>Licensing (Mandatory)<i
+                              class='bx bxs-right-arrow'></i></span></a>
+                        <ul mdbDropdownMenu class="dropdown-menu custom-dropdown"
+                          aria-labelledby="nestedDropdownMenuLink" style="line-height: 10px; margin-left: 13px">
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/mandatory/FSSAI">FSSAI</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/mandatory/Legal-metrology-act">Legal
+                              Metrology</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/mandatory/Vegan-Product-Approved-By-FSSAI">Vegan
+                              Product Approved By FSSAI</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/mandatory/Spice-Board">Spice Board</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/mandatory/APEDA">APEDA</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/mandatory/Factory-Act">Factory Act</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/mandatory/MPCB">MPCB</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/mandatory/Land-Acquisition">Land
+                              Acquisition (MIDC)</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                        <a class="dropdown-item" routerLink=""><span>Certifications (Voluntary)<i
+                              class='bx bxs-right-arrow'></i></span></a>
+                        <ul mdbDropdownMenu class="dropdown-menu custom-dropdown"
+                          aria-labelledby="nestedDropdownMenuLink" style="line-height: 8px; margin-left: 13px">
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/Certifications/Import-Export-certificate">Import
+                              Export Clearance/Code Certification</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/Certifications/Organic-Certification">Organic
+                              Certification</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/Certifications/ISO-Certification">ISO/FSSC
+                              Certification</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/Certifications/HALAL">HALAL</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/Certifications/USFDA">USFDA</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/Certifications/Kosher">KOSHER</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/Certifications/BRC">BRC</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item"
+                              routerLink="services/licensingRegulatoryServices/Certifications/BIS">BIS</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                  <a class="dropdown-item">Financial
+                    Services<span><i class='bx bxs-right-arrow'></i></span></a>
+                  <ul mdbDropdownMenu class="dropdown-menu custom-dropdown" aria-labelledby="nestedDropdownMenuLink"
+                    style="line-height: 8px; margin-left: 13px">
+                    <li>
+                      <a class="dropdown-item" routerLink="services/financialServices/DPR">DPR</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/financialServices/Feasibility-Study-Report">Feasibility Study Report</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/financialServices/Techno-Economic-Viability-Study-Report">Techno Economic
+                        Viability Study Report</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a class="dropdown-item" routerLink="services/technicalServices">IT Enabled Food Industry</a>
+              </li>
+
+              <li>
+                <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                  <a class="dropdown-item" routerLink="">Government schems & Subsidy<span><i
+                        class='bx bxs-right-arrow'></i></span></a>
+                  <ul mdbDropdownMenu class="dropdown-menu custom-dropdown" aria-labelledby="nestedDropdownMenuLink"
+                    style="line-height: 8px; margin-left: 13px">
+                    <li>
+                      <a class="dropdown-item" routerLink="services/governmentSchemas/MoFPI">MoFPI
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/governmentSchemas/MSME">MSME
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/governmentSchemas/APEDA">APEDA
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/governmentSchemas/NHB">NHB
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/governmentSchemas/DAHD">DAHD
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                  <a class="dropdown-item" routerLink=""><span>Auditing & Training Services<i
+                        class='bx bxs-right-arrow'></i></span></a>
+                  <ul mdbDropdownMenu class="dropdown-menu custom-dropdown" aria-labelledby="nestedDropdownMenuLink"
+                    style="line-height: 8px; margin-left: 13px">
+                    <li>
+                      <a class="dropdown-item" routerLink="services/auditingTrainingServices/Food-Safety-Audits">Food
+                        Safety Audits</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/auditingTrainingServices/Manufacturing-Audits">Manufacturing Audits</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/auditingTrainingServices/Vendor-Audit">Vendor
+                        Audit</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/auditingTrainingServices/Organic-Certification-Training">Organic
+                        Certification Training</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/auditingTrainingServices/Energy-Audit">
+                        Energy Audit</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                  <a class="dropdown-item" routerLink="">Value Added Services<span><i
+                        class='bx bxs-right-arrow'></i></span></a>
+                  <ul mdbDropdownMenu class="dropdown-menu custom-dropdown" aria-labelledby="nestedDropdownMenuLink"
+                    style="line-height: 8px; margin-left: 13px;margin-top:-45px;">
+                    <li>
+                      <a class="dropdown-item" routerLink="services/valueAddedService/Monthly-Advisory-Services">Monthly
+                        Advisory Services</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/valueAddedService/Contract-Manufacturing">Contract
+                        Manufacturing</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item"
+                        routerLink="services/valueAddedService/Production-Assistance-Service">Production Assistance
+                        Service</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" routerLink="services/valueAddedService/Merger-&-Acquisition">Merger &
+                        Acquisition</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <li>
+            <a class="nav-link scrollto" href="#portfolio">
+              <span>Segments</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" routerLink="Food-Startup-Program">Food Startup Program</a>
+          </li>
+          <li><a class="nav-link scrollto" routerLink="career">Career</a></li>
+          <li><a class="nav-link scrollto" routerLink="gallery">Gallery</a></li>
+          <li>
+            <a class="nav-link scrollto" routerLink="contact">Contact Us</a>
+          </li>
+          <li>
+            <div mdbDropdown class="dropdown" style="margin-top: -4px;">
+              <span class="service-container">
+                <a href="#" class="service">Blog</a>
+                <i class='bx bxs-down-arrow arrow'></i>
+              </span>
+              <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="line-height: 16px;">
+                <li>
+                  <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                    <a class="dropdown-item" href="https://www.linkedin.com/feed/update/urn:li:activity:7153273948791595008">"Seal the Taste, Transform the Future:<br/> Canning Innovations at Your Table."</a>
+                  </div>
+                </li>
+                <li>
+                  <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                    <a class="dropdown-item" href="https://www.linkedin.com/feed/update/urn:li:activity:7146909907961778176?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7146909907961778176%29">Food Industry Drains: <br/>The Food Safety Auditors Favorite.</a>
+                  </div>
+                </li>
+                <li>
+                  <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                    <a class="dropdown-item" href="https://www.linkedin.com/pulse/5-bottlenecks-indian-food-processing-industries-gajanan-kalyane?utm_source=share&utm_medium=member_android&utm_campaign=share_via">5 Bottlenecks in Indian Food <br/> Processing Industries.</a>
+                  </div>
+                </li>
+                <li>
+                  <div mdbDropdown class="dropdown" (click)="scrollToTop()">
+                    <a class="dropdown-item" href="https://www.linkedin.com/pulse/10-services-which-all-agro-food-industry-needs-gajanan-kalyane?utm_source=share&utm_medium=member_android&utm_campaign=share_via">10 services which all agro-food<br/> industry needs.</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </ul>
+
+        <nav class="navbar order-last order-lg-0 navbar-mobile" *ngIf="isMenuOpen">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" (click)="closeMenu()" routerLink="about">About</a>
+            </li>
+
+            <div class="dropdown">
+              <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Service
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" (click)="scrollToTop()">
+                <a class="dropdown-item" href="#">
+                  <span>Turnkey Project Setup<i class='bx bxs-right-arrow'></i></span>
+
+                  <div class="dropdown-menu dropdown1">
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Land-Selection">Land Selection</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/basis-of-design">Basis of Design</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Architectural-Service">Architectural Service
+                    </a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Building-Design-Phase">Building Design Phase</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Machinery-Selection">Machinery Selection</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Preparation-of-Implementation-Schedule">Preparation of
+                      Implementation Schedule</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Vendor-Selection-&-Management">Vendor Selection &
+                      Management</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Site-supervision">Site supervision</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Preparation-Of-progress-report">Progress
+                      report</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Value-Engineering">Value Engineering</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Master-Project-Budget-preparation"> Budget
+                      preparation</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/turnkeyProjectSetup/Documents-&-Handover-Procedures">Documents & Handover
+                      Procedures</a>
+                  </div>
+                </a>
+                <a (click)="closeMenu()" routerLink="services/newProductDevelopment" (click)="closeMenu()">
+                  New Product Development
+                </a>
+                <a class="dropdown-item" (click)="scrollToTop()"
+                  routerLink="services/licensingRegulatoryServices/licensingRegulatoryServices">
+                  <span>Licensing & Regulatory Services<i class='bx bxs-right-arrow'></i></span>
+                  <div class="dropdown-menu" (click)="scrollToTop()">
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/licensingRegulatoryServices/mandatory/FSSAI">FSSAI</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/licensingRegulatoryServices/mandatory/Legal-metrology-act">Legal
+                      Metrology</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/licensingRegulatoryServices/mandatory/Vegan-Product-Approved-By-FSSAI">Vegan
+                      Product Approved By FSSAI</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/licensingRegulatoryServices/mandatory/Spice-Board">Spice Board</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/licensingRegulatoryServices/mandatory/APEDA">APEDA</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/licensingRegulatoryServices/mandatory/Factory-Act">Factory Act</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/licensingRegulatoryServices/mandatory/MPCB">MPCB</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/licensingRegulatoryServices/mandatory/Land-Acquisition">Land
+                      Acquisition (MIDC)</a>
+                  </div>
+                </a>
+
+c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\package.json c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\node_modules c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\webpack.config.js c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\src c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\angular.json c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\tsconfig.json c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\tsconfig.spec.json c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\.editorconfig c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\.gitignore c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\README.md c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\tailwind.config.js c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\tsconfig.app.json c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\dist c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\.angular c:\Users\ALKESH\Downloads\vijay-chole-website\vijay-chole-website\package-lock.json
+                <a routerLink="services/technicalServices" (click)="closeMenu()">
+                  IT Enabled Food Industry
+                </a>
+
+                <a class="dropdown-item" (click)="scrollToTop()">
+                  <span> Government schems & Subsidy<i class='bx bxs-right-arrow'></i></span>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" (click)="closeMenu()" routerLink="services/governmentSchemas/MoFPI">MoFPI
+                    </a>
+                    <a class="dropdown-item" (click)="closeMenu()" routerLink="services/governmentSchemas/MSME">MSME
+                    </a>
+                    <a class="dropdown-item" (click)="closeMenu()" routerLink="services/governmentSchemas/APEDA">APEDA
+                    </a>
+                    <a class="dropdown-item" (click)="closeMenu()" routerLink="services/governmentSchemas/NHB">NHB
+                    </a>
+                    <a class="dropdown-item" (click)="closeMenu()" routerLink="services/governmentSchemas/DAHD">DAHD
+                    </a>
+                  </div>
+                </a>
+
+                <a class="dropdown-item" (click)="scrollToTop()">
+                  <span>Auditing & Training Services <i class='bx bxs-right-arrow'></i></span>
+                  <div class="dropdown-menu">
+                    <a (click)="closeMenu()" class="dropdown-item"
+                      routerLink="services/auditingTrainingServices/Food-Safety-Audits">Food Safety Audits</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/auditingTrainingServices/Manufacturing-Audits">Manufacturing Audits</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/auditingTrainingServices/Organic-Certification-Training">Organic
+                      Certification Training</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/auditingTrainingServices/Vendor-Audit">Vendor Audit</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/auditingTrainingServices/Energy-Audit">Energy Audit</a>
+                  </div>
+                </a>
+
+                <a class="dropdown-item" (click)="scrollToTop()">
+                  <span> Value Added Service <i class='bx bxs-right-arrow'></i></span>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/valueAddedService/Monthly-Advisory-Services">Monthly Advisory Services</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/valueAddedService/Contract-Manufacturing">Contract Manufacturing</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/valueAddedService/Production-Assistance-Service">Production Assistance
+                      Service</a>
+                    <a class="dropdown-item" (click)="closeMenu()"
+                      routerLink="services/valueAddedService/Merger-&-Acquisition">Merger & Acquisition</a>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <li>
+              <a class="nav-link scrollto" (click)="closeMenu()" href="#portfolio">Segments</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" (click)="closeMenu()" routerLink="Food-Startup-Program">Food Startup
+                Program</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" (click)="closeMenu()" routerLink="career">Career</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" (click)="closeMenu()" routerLink="gallery">Gallery</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" (click)="closeMenu()" routerLink="contact">Contact Us</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" (click)="closeMenu()" routerLink="#">Blog</a>
+            </li>
+          </ul>
+          <i class="bi mobile-nav-toggle" [ngClass]="{ 'bi-x': isMenuOpen, 'bi-list': !isMenuOpen }"
+            (click)="toggleMenu()"></i>
+        </nav>
+        <i class="bi mobile-nav-toggle" [ngClass]="{ 'bi-list': !isMenuOpen }" (click)="toggleMenu()"></i>
+      </nav>
+      <a href="#" class="get-started-btn scrollto" data-bs-toggle="modal" data-bs-target="#quoteModal">Get A Quote</a>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header text-center" style="align-self: center; color: greenyellow">
+        <h3 class="modal-title" id="quoteModalLabel">Get a Quote</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+          style="background-color: white;margin-left: 14px;"></button>
+      </div>
+      <div class="modal-body">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" formControlName="name"
+                placeholder="Your Name" />
+              <div
+                *ngIf="editForm.get('name')!.invalid && (editForm.get('name')!.dirty || editForm.get('name')!.touched)">
+                <small class="form-text text-danger" *ngIf="editForm.get('name')?.errors?.['required']"> This field is
+                  required. </small>
+              </div>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="Mobile No." id="Mobile No." placeholder="Mobile No."
+                formControlName="contactNumber" />
+              <div
+                *ngIf="editForm.get('contactNumber')!.invalid && (editForm.get('contactNumber')!.dirty || editForm.get('contactNumber')!.touched)">
+                <small class="form-text text-danger" *ngIf="editForm.get('contactNumber')?.errors?.['required']"> This
+                  field is required. </small>
+                <small class="form-text text-danger" *ngIf="editForm.get('contactNumber')?.errors?.['pattern']">
+                  Please, Enter 10 digit Mobile Number
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+              formControlName="email" />
+            <div
+              *ngIf="editForm.get('contactNumber')!.invalid && (editForm.get('email')!.dirty || editForm.get('email')!.touched)">
+              <small class="form-text text-danger" *ngIf="editForm.get('email')?.errors?.['required']">Email is
+                required</small>
+              <small class="form-text text-danger" *ngIf="editForm.get('email')?.errors?.['email']">Email must be a
+                valid email address.</small>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="requirement" rows="5" placeholder="requirements"
+              formControlName="requirements">
+            <div *ngIf="editForm.get('requirements')!.invalid && (editForm.get('requirements')!.dirty || editForm.get('requirements')!.touched)">
+              <small class="form-text text-danger" *ngIf="editForm.get('requirements')?.errors?.['required']">This field is required</small>
+            </div></textarea>
+          </div>
+          <div *ngIf="showThankYouMessage" class="text-center thank-you-message">
+            Thank You for Contacting us. Our Executive will revert to you shortly.
+          </div>
+          <div class="text-center" style="margin-top: 5px">
+            <button class="btn btn-success" [disabled]="editForm.invalid || isSaving" type="submit" value="send"
+              style="margin-left:0px">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
